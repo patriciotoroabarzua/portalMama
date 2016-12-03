@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+/*
+ * STRUCTURE
+*/
+.clear {clear:both;}
+
+#wheel-widget {
+}
+/*
+div{
+border: 1px solid #000000;
+}
+*/
+
+	 
+#main {
+	/*background: url("bg-main.png") repeat-y scroll right top #F6F6F6;
+    */
+
+    margin: 0 auto;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+#wheelContainer {
+	background: url("months.png") no-repeat scroll left top transparent;
+    height: 640px;
+    margin-left: 10px;
+    padding: 7px;
+    position: relative;
+    width: 640px;
+    z-index: 10;
+}
+
+#wheelContainer #wheel {
+	cursor: pointer;
+    height: 550px;
+    padding: 26px;
+    width: 550px;
+	}
+	
+	#wheelContainer #wheel span {
+		position:absolute;
+	}
+	
+	#wheelContainer #wheel span#wheel-image {
+		top:-550px;
+	}
+	
+	#wheelContainer #wheel #hoy-image {
+		position:absolute;
+		z-index:10;
+	}
+
+
+#wheelContainer #wheel-center {
+	background: url("wheel-center.png") no-repeat scroll left top transparent;
+    height: 214px;
+    left: 202px;
+    position: absolute;
+    top: 202px;
+    width: 214px;
+	}
+	
+	#wheelContainer #wheel-center #center-lastMenstrual {
+		color: #1C94C4;
+	    font-weight: bold;
+	    left: 25px;
+	    position: absolute;
+	    top: 85px;
+		}
+		#wheelContainer #wheel-center #center-lastMenstrual .date-es-weekday {
+			font-size: 14px;
+		    left: -19px;
+		    position: absolute;
+		    text-align: right;
+		    top: 15px;
+		    width: 78px;
+		}
+		#wheelContainer #wheel-center #center-lastMenstrual .date-es-day {
+		    font-size: 32px;
+		    left: 56px;
+		    position: absolute;
+		    text-align: center;
+		    top: 0;
+		    width: 50px;
+		}
+		#wheelContainer #wheel-center #center-lastMenstrual .date-es-of {
+			font-size: 10px;
+		    left: 106px;
+		    position: absolute;
+		    top: 6px;
+		}
+		#wheelContainer #wheel-center #center-lastMenstrual .date-es-month {
+			font-size: 12px;
+		    left: 106px;
+		    position: absolute;
+		    top: 16px;
+		}
+		
+	#wheelContainer #wheel-center #center-dueDate {
+		left: 23px;
+	    position: absolute;
+	    top: 120px;
+		}
+		#wheelContainer #wheel-center #center-dueDate .date-es-weekday {
+			font-size: 11px;
+		    left: -19px;
+		    position: absolute;
+		    text-align: right;
+		    top: 10px;
+		    width: 78px;
+		}
+		#wheelContainer #wheel-center #center-dueDate .date-es-day {
+		    font-size: 24px;
+		    left: 56px;
+		    position: absolute;
+		    text-align: center;
+		    top: 0;
+		    width: 50px;
+		}
+		#wheelContainer #wheel-center #center-dueDate .date-es-of {
+			font-size: 9px;
+		    left: 106px;
+		    position: absolute;
+		    top: 3px;
+		}
+		#wheelContainer #wheel-center #center-dueDate .date-es-month {
+			font-size: 10px;
+		    left: 106px;
+		    position: absolute;
+		    top: 12px;
+		}
+		
+
+
+#text{
+			color: #666666;
+		    float: left;		 
+		    padding-bottom: 2px;
+}
+
+.resultado-box {
+    
+    background: #e7e7e7;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 -1px 0 inset;
+   
+    padding: 35px;
+    margin: 0 0 25px 0;
+}
+
+#results label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #F45E9E;
+    font-weight: bold;
+} 
+}

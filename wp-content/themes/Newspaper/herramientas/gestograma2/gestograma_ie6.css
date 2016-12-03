@@ -1,0 +1,9 @@
+#wheelContainer {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='months.png', sizingMethod='scale');
+}
+
+#wheelContainer #wheel-center {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='wheel-center.png', sizingMethod='scale');
+}
